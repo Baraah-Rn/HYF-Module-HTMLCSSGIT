@@ -1,0 +1,49 @@
+body {
+    color: rgb(85, 79, 107);
+    background-color: rgb(240, 240, 243);
+    font-family: "Times New Roman", Times, serif;
+}
+
+#Container{
+align-items: center;
+margin-left: 10rem;
+}
+
+h1{
+    color: darkcyan;
+}
+
+h3{
+    color: darkcyan; 
+    border-bottom: solid ;
+}
+
+#Top-div{
+    display: flex;
+    margin: 2rem;
+    width: 900px;
+}
+.AboutMe-info{
+    margin-left: 3rem;
+}
+
+.p-MeInfo{
+    line-height : 30px
+}
+
+img{
+    width:450px;
+     height:250px
+}
+#Bottom-div{
+    display: flex;
+    margin: 2rem;
+    width: 900px;
+}
+.contect-info{
+    border-right: solid darkcyan;
+}
+
+.Education-info{
+  margin-left: 1rem;
+}

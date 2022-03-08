@@ -1,0 +1,22 @@
+1-How do I create a hidden file or folder? How do I display it in the CLI?
+
+I Used the mkdir command to create a new folder. To make that folder hidden,I added a dot (.) before the name of the folder
+I Used the touch command to create a new file. To make that file hidden,I added a dot (.) before the name of the file
+
+I could display hidden  file by  ype the following command 
+dir-a
+
+2-How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+Click the Windows Start button from the taskbar and open bash then change to the path that I want,
+or open Git bash Here in the directory that I want then write the command :
+
+mkdir -p test1/test2/test3
+
+
+3-How do I append a message to a file, without a newline character, so the output would be:
+
+I used the command :
+echo "Hello" > test.txt       // "Line1" > the name of the file I want to write in it
+echo "You" >> test.txt         // "Line2" >> the name of the file I want to write in it
+
