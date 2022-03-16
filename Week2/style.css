@@ -1,0 +1,365 @@
+body{
+    height: 100%;
+  
+    background:#fff0e5;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+/*--------------nav-bar-------------*/
+
+.nav-bar{
+    background:#fff0e5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+     top: 0px;
+}
+.nav-bar > div{
+    flex: -2;
+}
+.nav-bar>ul{
+    flex: 4;
+    gap: 3rem;
+}
+.nav-bar > a:hover{
+    color: #0d6efd;
+   
+}
+.right-nav{
+    margin-left: auto;
+}
+.btn-login{
+ background-color:#fff0e5;
+  border: solid #fff0e5;
+  
+}
+
+.btn-login:hover{
+    background:#e7dad0;
+    padding: 1rem;
+}
+
+
+/*--------------container-1-------------*/
+#container-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*--------------top-div-------------*/
+
+.top-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    align-items: center;
+ justify-content: center;
+   
+}
+
+.stand-Women{
+  width: 45%;
+ height: 45% ;
+ margin-right: 4rem;
+ box-shadow: 0 10px 10px  ;
+}
+.right-div1{
+    align-items: center;
+    width: 27rem;
+  }
+
+  #log-in-Form >input{
+    width: 26rem;
+     height:3rem;
+  }
+
+  .btn-signup{
+      margin: 1rem;
+      color: aliceblue;
+      background-color: #3a10e5;
+      padding: 0.5rem  1rem ;
+      border: none;
+      border-radius: 4px;
+  }
+  .btn-signup:hover{
+    border-radius: 4px;
+    background-color: #4f32c7;
+}
+.link{
+    color: #0d6efd;
+}
+.link:hover{
+    border-bottom: solid 2px #0d6efd;
+}
+ 
+/*--------------bottom-div-------------*/
+
+.bottom-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ justify-content: space-around;
+ margin-top: 3rem;
+}
+
+.left-div2{
+    margin-right: 6rem;
+    width: 35rem;
+}
+
+ .goals{
+     height: 9rem;
+     padding: 2rem;
+   
+}
+.g1{
+      border-top: solid 1px black ;
+}
+.goals:hover{
+    background-color: rgb(254, 255, 255);
+    padding: 1rem;   
+}
+
+
+.right-div2{
+    padding: 3rem;
+    display: flex;
+    background-color: #fff0e5;
+    opacity: 1;
+    background-image: radial-gradient(#000000 1.3px, #fff0e5 1.3px);
+    background-size: 25px 26px;
+}
+.card{
+    width: 12rem;
+    margin: 2rem;
+    font-size: 12px;
+    color: black;
+}
+.card:hover{
+    box-shadow: -8px 8px 0 black;
+    color: black;
+}
+
+section{
+    display: flex;
+}
+.Pro{
+    margin: 1rem;
+    color: aliceblue;
+    background-color: black;
+}
+.card-not{
+    background-color: #fff5ff;
+     width: fit-content;
+     position: absolute;
+     bottom: -1rem;
+     right: 0.2rem;
+
+}
+
+
+/*--------------container-2-------------*/
+
+#container-2{
+    display: flex;
+    flex-direction: row;
+    background-color: #181d33;
+    color: #fff5ff;
+    padding:4rem 4rem ;
+    align-items: center;
+    justify-content: space-around;
+}
+.code-pic{
+    width: 40%;
+    height: 60%;
+}
+
+.container2-right-div{
+width:28%;
+}
+
+.btn-lesson{
+    border: solid  #ffd300;
+    border-radius: 6px;
+    width: 10rem;
+    }
+    .btn-courses{
+        border: none;
+        margin-left: 1rem;
+        width: 13rem;
+    }
+    
+    .btn2{
+        color: #ffd300;
+        background-color: #181d33;
+        padding: 0.5rem;
+        
+    }
+    .btn2:hover{
+        background-color: #202644;
+        border-radius: 6px;
+    }
+
+    /*--------------container-3-------------*/
+    #container-3{
+        display: flex;
+        flex-direction: row;
+        background-color: #ffd300; ;
+        color: #fff5ff;
+        padding:4rem 4rem ;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .container3-left-div{
+        width:28%;
+        color: #000000;
+    }
+    .btn-quiz{
+        border: none;
+        color: #e7dad0;
+        background-color: #3a10e5;
+        padding: 0.7rem;
+        margin-top: 2rem;
+        border-radius: 6px;
+        width: 10rem;
+        height: 3rem;
+    }
+    .btn-quiz:hover{
+        background-color: #4f2ed6;
+    }
+
+    /*--------------container-4-------------*/
+    #container-4{
+        background:#fff0e5;
+        color: black;
+        padding:4rem 4rem ;
+        width: 100%;
+    }
+    #story-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #fff0e5;
+    }
+.story{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+} 
+.story1{
+    width: 60%;
+    height: auto;
+}
+/*--------------container-5-------------*/
+   #container-5{
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3a10e5;
+    color: #fff0e5;
+
+   }
+   #container-5 > h3{
+       font-size: 30px;
+       width: 10%;
+   }
+   #container-5 >h1{
+    width: 18%;
+   }
+
+   /*--------------container-6-------------*/
+   #container-6{
+    background: #10162f;
+    color: aliceblue;
+    padding:8rem 4rem ;
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.container-left-right-div{
+    width:28%;
+}
+
+#container-6>img{
+    width:40%;
+   height: 40%;
+   margin-top: 1.0rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    border: solid  #ffd300;
+    border-radius: 6px;
+    background-color: #ffd300; 
+    }
+    .btn:hover{
+        border-radius: 6px;
+        border: solid #ceb019;      
+        background-color: #ceb019;       
+    }
+
+/*--------------container-7-------------*/
+#container-7{
+    background-color: #3a10e5;
+    padding: 6rem;
+    color: aliceblue;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+#container-7>img{
+    width:35%;
+    height: 35%;
+    margin-top: 1.0rem;
+}
+
+/*--------------footer1-------------*/
+li{
+    list-style: none;
+}
+
+#footer1{
+    background:#fff0e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem;
+    border-bottom: #000000 solid 1px;
+}
+
+.footer-line{
+    border-right: #000000 solid 1px;
+    padding-right: 1rem;
+}
+
+
+#footer2{
+    background:#fff0e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem;
+}
+
+
+/*--------------footer-------------*/
+footer{
+    padding: 2rem;
+}
+footer>p{
+    text-align: right;
+}
